@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Document</title>
+  <style>
+    button{
+      background-color: cadetblue;
+      margin: 4px;
+
+    }
+  </style>
+
+</head>
+<body>
+  <div id= "demo" style = "background-color: aquamarine; width: 200px; height: 40px; font-weight: bold;"> Its Carla the Developer</div>
+  <button type= "button"onclick="show()" > Show </button>
+  <button  type="button" onclick="hide()" > Hide </button>
+
+  <script>
+    
+    function show(){
+      document.getElementById("demo").style.display= "block";
+    }
+    function hide(){
+      document.getElementById("demo").style.display= "none";
+    }
+  </script>
+
+  
+</body>
+</html>

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    var remainder = 10%3
+    document.write(remainder +'<br>')
+
+  var myStr = "i am special," + "you are too.";
+  document.write(myStr + '<br>')
+
+  var hisStr = "I am  a developer,";
+  hisStr+= "An excellent one at that.";
+  document.write(hisStr + '<br>')
+
+
+  var myName = "Carla";
+  myStr = "My name is  " + myName + " and I am great";
+  document.write(myStr + '<br>')
+
+  var myAdjective = "worth it.";
+  var myStr = "Being a developer is, ";
+  myStr+= myAdjective;
+  document.write(myStr + '<br>')
+
+  var firstNick = "Lilybear";
+  document.write(firstNick.length + '<br>')
+
+  //finding indexes in an initialisation
+
+  var firstNick = "Lilybear";
+  document.write(firstNick[2] + '<br>')
+
+  //finding length of var
+
+  var firstNick = "Lilybear";
+  document.write(firstNick.length - 1 + '<br>')
+
+  //worldBlanks
+
+  function worldblanks(myNoun, myAdjective, myAdverb, myVerb){
+    var result = ""
+
+    result+= "The " 
+  }
+
+  //accessing arrays
+
+
+  var myArray = [13,69,30,30,"lily"];
+  document.write(myArray[4] + '<br>')
+
+  //modifying an array
+
+  var myArray = [13,69,30,30,"lily"];
+  myArray[3] = 90
+  document.write(myArray + '<br>')
+
+  //accessing multi-dimensional arrays
+
+
+  var myArray = [[78,50,90], [13,69,30,30], [19,78,60]];
+  var myInfo = myArray[2][1];
+  document.write(myInfo + '<br>')
+
+  //push function for adding elements to  the end of the array
+
+  var miArray = ["job", "Chris", "Janet"];
+  miArray.push(["Francesca", "Kennedy"]);
+  document.write(miArray + '<br>')
+
+  //pop, for removing the last element in an array
+  var miArray = ["job", "Chris", "Janet"];
+  miArray.pop();
+  document.write(miArray + '<br>')
+
+  //shift removes 1st element and not last
+
+  var miArray = ["job", "Chris", "Janet"];
+  miArray.shift();
+  document.write(miArray + '<br>')
+
+  //unshift adds  elements to the beginning of the array
+
+  var miArray = ["job", "Chris", "Janet"];
+  miArray.shift();
+  miArray.unshift("KEN", "Goodness");
+  document.write(miArray + '<br>')
+
+  //functions
+  function myHead() {
+    var myNose = 4;
+    document.write(myNose)
+  }
+ 
+
+  //local scope variables take precedence over the global scope variables
+
+  //global scope variables exist outside the function being called, while the local scope variables are declared within the function.
+
+  
+  function myOutfit() {
+    var myClothe = "sweater"
+    document.write(myClothe);
+  }
+
+
+  var myClothe = "sweater"
+
+  function myOutfit() {
+    return myClothe;
+    document.write(myOutfit);
+  }
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+  
+ 
+
+
+
+
+  </script>
+  
+</body>
+</html>

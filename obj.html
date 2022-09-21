@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Javascript</title>
+</head>
+<body>
+  <script>
+
+//array length
+
+var Colors =  ["blue", "orange", "violet", "pink", "red","pitch", "green"];
+
+document.write(Colors.length + '<br/>' );
+
+//(push)
+var Colors =  ["blue", "orange", "violet", "pink", "red","pitch", "green"];
+
+Colors.push('black');
+
+document.write(Colors[7] + '<br/>' );
+
+//(pop)
+
+var Colors =  ["blue", "orange", "violet", "pink", "red","pitch", "green"];
+
+Colors.pop();
+
+document.write(Colors.length + '<br/>' );
+
+//unshift  adding to the beginning og the array
+var Colors =  ["blue", "orange", "violet", "pink", "red","pitch", "green"];
+
+Colors.unshift('black');
+
+document.write(Colors[0] + '<br/>' );
+
+//(shift) removing from the beginning of the array
+
+var Colors =  ["blue", "orange", "violet", "pink", "red","pitch", "green"];
+
+Colors.shift();
+
+document.write(Colors[0] + '<br/><br/>' );
+
+//Object
+
+
+var Person=  {
+  height: "8ft",
+  color: "dark",
+  name:"Godwin",
+  age: 27
+};
+
+document.write(Person.name  + " is "+ Person.height + " tall " + '<br/><br/>'  );
+document.write(Person.name  + " is "+ Person.color + " in " + " complexion " + '<br/><br/>'  );
+document.write(Person.name  + " is "+ Person.age + " years " + " old " + '<br/><br/>'  );
+
+
+var Colors =  ["blue", "orange", "violet", "pink", "red","pitch", "green"];
+
+
+for(var i= 0; i<Colors.length; i++);
+document.write(Colors + '<br/><br/>');
+//control structure
+
+var goat= 5;
+var cow= 3;
+
+if( goat== cow){
+  document.write('good')
+}
+else{
+  document.write('bad' + '<br/>');
+}
+
+ 
+
+var income= 1000;
+
+if(income<1000){
+  document.write('yes')
+}
+else if (income=1000) {
+  document.write('yup');
+
+}
+else{
+  (document.write('no' + '<br/>'));
+}
+
+  //........
+
+
+
+var score= 52;
+
+if(score<=49){
+  document.write('you got a D');
+} 
+else if(score<=59){
+  document.write('you got a C');
+} 
+else if(score<=69){
+  document.write('you got a B');
+} 
+else {
+  document.write('you got a A' + "," +'<br/><br/>');
+}
+
+  //while statements
+
+
+  track="";
+for (count=1;count<=20; count++){
+  track +="repeat"; 
+ }
+
+
+var x= 10;
+while(x<=15){
+  x+=1;
+  document.write(x + '<br/><br/>');
+}
+
+//for loop is commonly used with arrays
+
+for ( var i=0; i<5; i++){
+document.write("Sweet hubby"+ "<br/><br/>");
+}
+
+// one of the differences between the while loop and for loop statement is that for the while statement, a variable which is used to give the condition must be specified 
+// but the for loop,continues to loop for as long as the condition holds true. 
+
+
+var cars= ["bmw", "volvo","ford", "honda", "bentley"];
+
+for(var i= 0; i<cars.length; i++){
+document.write(cars[i] + "<br/>");
+
+
+}
+
+var score = 78;
+  if (score >= 70) {
+
+}else if (score >= 60) {
+document.write('You got a B');
+}else if (score >= 50) {
+document.write('You got a C');
+}else if (score >= 45) {
+document.write('You got a D');
+}else if (score >= 40) {
+document.write('You got an E');
+}else{
+document.write('You got an F' +"<br/>");
+}
+
+//switch statements
+
+
+// var score = 60;
+// switch(score){
+//   case 1:
+//   document.write('You got an A');
+//   break;
+//   case 2:
+//   document.write('You got an B');
+//   break;
+//   case 3:
+//   document.write('You got an C');
+//   break;
+//   case 4:
+//   document.write('You got an D');
+//   break;
+//   default:
+//   document.write('You got an E');
+
+
+// }
+
+for(i=5; i<=20; i++){0
+document.write('5 x '+ i + ' = ' + (5*i) + '<br/><br/><br/>');
+}
+
+
+for(i=3; i<=20; i++){
+document.write('3 x '+ i + ' = ' + (3*i) + '<br/><br/>');
+}
+
+function addition(d,c){
+  var e= d + c;
+   
+}
+addition(100,600);
+document.write('e' + '<br/><br/>');
+
+
+words = fixNames("the", "DALLAS", "CowBoys")
+ for (j = 0 ; j < words.length ; ++j)
+  document.write(words[j] + "<br>")
+ function fixNames() {
+    var s = new Array()
+ for (j = 0 ; j < fixNames.arguments.length ; ++j)
+  s[j] = 
+fixNames.arguments[j].charAt(0).toUpperCase() + 
+fixNames.arguments[j].substr(1).toLowerCase()
+ return s } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </script>
+</body>
+</html>
+
+
+
